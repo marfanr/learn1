@@ -1,0 +1,26 @@
+[0.230s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
+[0.906s] [35m[1mScanning dependencies of target main[0m
+[1.807s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[43.268s] [100%] [32m[1mLinking CXX executable main[0m
+[45.200s] [100%] Built target main
+[45.261s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
+[45.861s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/learn1
+[46.011s] -- Install configuration: ""
+[46.016s] -- Installing: /home/arfan/belajar-ros2/testworkspace/install/learn1/lib/learn1/main
+[46.067s] -- Set runtime path of "/home/arfan/belajar-ros2/testworkspace/install/learn1/lib/learn1/main" to ""
+[46.068s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/ament_index/resource_index/package_run_dependencies/learn1
+[46.070s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/ament_index/resource_index/parent_prefix_path/learn1
+[46.074s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/ament_prefix_path.sh
+[46.080s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/ament_prefix_path.dsv
+[46.082s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/path.sh
+[46.085s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/path.dsv
+[46.086s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.bash
+[46.116s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.sh
+[46.135s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.zsh
+[46.136s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.dsv
+[46.137s] -- Installing: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.dsv
+[46.137s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/ament_index/resource_index/packages/learn1
+[46.150s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/cmake/learn1Config.cmake
+[46.150s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/cmake/learn1Config-version.cmake
+[46.151s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.xml
+[46.152s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/learn1

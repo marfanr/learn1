@@ -1,0 +1,16 @@
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/lib/myrvis/myrvis
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/package_run_dependencies/myrvis
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/parent_prefix_path/myrvis
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/ament_prefix_path.sh
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/ament_prefix_path.dsv
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/path.sh
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/path.dsv
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.bash
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.sh
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.zsh
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.dsv
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.dsv
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/packages/myrvis
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/cmake/myrvisConfig.cmake
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/cmake/myrvisConfig-version.cmake
+/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.xml

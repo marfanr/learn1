@@ -1,0 +1,5 @@
+[0.477s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
+[1.161s] make[2]: *** [CMakeFiles/main.dir/build.make:183: CMakeFiles/main.dir/depend] Interrupt
+[1.195s] make[1]: *** [CMakeFiles/Makefile2:77: CMakeFiles/main.dir/all] Interrupt
+[1.197s] make: *** [Makefile:141: all] Interrupt
+[1.245s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2

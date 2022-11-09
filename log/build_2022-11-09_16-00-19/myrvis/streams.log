@@ -1,0 +1,22 @@
+[0.297s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/myrvis -- -j2 -l2
+[1.214s] [100%] Built target myrvis
+[1.378s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/myrvis -- -j2 -l2
+[1.975s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/myrvis
+[2.111s] -- Install configuration: ""
+[2.115s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/lib/myrvis/myrvis
+[2.126s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/package_run_dependencies/myrvis
+[2.128s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/parent_prefix_path/myrvis
+[2.128s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/ament_prefix_path.sh
+[2.139s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/ament_prefix_path.dsv
+[2.140s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/path.sh
+[2.141s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/path.dsv
+[2.142s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.bash
+[2.142s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.sh
+[2.143s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.zsh
+[2.143s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.dsv
+[2.144s] -- Installing: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.dsv
+[2.149s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/packages/myrvis
+[2.150s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/cmake/myrvisConfig.cmake
+[2.151s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/cmake/myrvisConfig-version.cmake
+[2.151s] -- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.xml
+[2.176s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/myrvis

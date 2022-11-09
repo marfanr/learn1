@@ -1,0 +1,3 @@
+[0.388s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/myrvis -- -j2 -l2
+[0.994s] make: *** [Makefile:140: all] Interrupt
+[1.034s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/myrvis -- -j2 -l2

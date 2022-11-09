@@ -1,0 +1,205 @@
+[1.161s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.162s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8f95bcfe50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8f95bcfe50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8f95be2400>)
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.346s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arfan/belajar-ros2/testworkspace'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extensions ['ignore', 'ignore_ament_install']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extension 'ignore'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extension 'ignore_ament_install'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extensions ['colcon_pkg']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extension 'colcon_pkg'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extensions ['colcon_meta']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extension 'colcon_meta'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extensions ['ros']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn1) by extension 'ros'
+[1.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn1' with type 'ros.ament_cmake' and name 'learn1'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extensions ['ignore', 'ignore_ament_install']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extension 'ignore'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extension 'ignore_ament_install'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extensions ['colcon_pkg']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extension 'colcon_pkg'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extensions ['colcon_meta']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extension 'colcon_meta'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extensions ['ros']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrvis) by extension 'ros'
+[1.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myrvis' with type 'ros.ament_cmake' and name 'myrvis'
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/arfan/belajar-ros2/testworkspace/install
+[1.702s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.407s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'cmake_args' from command line to 'None'
+[2.407s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'cmake_target' from command line to 'None'
+[2.407s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'cmake_clean_cache' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'cmake_clean_first' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'cmake_force_configure' from command line to 'False'
+[2.408s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'ament_cmake_args' from command line to 'None'
+[2.409s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'catkin_cmake_args' from command line to 'None'
+[2.409s] Level 5:colcon.colcon_core.verb:set package 'learn1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.409s] DEBUG:colcon.colcon_core.verb:Building package 'learn1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arfan/belajar-ros2/testworkspace/build/learn1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arfan/belajar-ros2/testworkspace/install/learn1', 'merge_install': False, 'path': '/home/arfan/belajar-ros2/testworkspace/src/learn1', 'symlink_install': False, 'test_result_base': None}
+[2.417s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'cmake_args' from command line to 'None'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'cmake_target' from command line to 'None'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'cmake_clean_cache' from command line to 'False'
+[2.419s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'cmake_clean_first' from command line to 'False'
+[2.419s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'cmake_force_configure' from command line to 'False'
+[2.419s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'ament_cmake_args' from command line to 'None'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'catkin_cmake_args' from command line to 'None'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'myrvis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.420s] DEBUG:colcon.colcon_core.verb:Building package 'myrvis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arfan/belajar-ros2/testworkspace/build/myrvis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arfan/belajar-ros2/testworkspace/install/myrvis', 'merge_install': False, 'path': '/home/arfan/belajar-ros2/testworkspace/src/myrvis', 'symlink_install': False, 'test_result_base': None}
+[2.426s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arfan/belajar-ros2/testworkspace/src/learn1' with build type 'ament_cmake'
+[2.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arfan/belajar-ros2/testworkspace/src/learn1'
+[2.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.541s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arfan/belajar-ros2/testworkspace/src/myrvis' with build type 'ament_cmake'
+[2.543s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arfan/belajar-ros2/testworkspace/src/myrvis'
+[2.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
+[2.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/myrvis -- -j2 -l2
+[3.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/myrvis -- -j2 -l2
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/myrvis
+[3.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myrvis)
+[3.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/myrvis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/myrvis
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis' for CMake module files
+[3.953s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis' for CMake config files
+[3.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('myrvis', 'cmake_prefix_path')
+[3.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/hook/cmake_prefix_path.ps1'
+[3.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/hook/cmake_prefix_path.dsv'
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/hook/cmake_prefix_path.sh'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/lib'
+[3.983s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/bin'
+[3.983s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/lib/pkgconfig/myrvis.pc'
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/lib/python3.8/site-packages'
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/bin'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.ps1'
+[4.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.dsv'
+[4.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.sh'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.bash'
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.zsh'
+[4.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/colcon-core/packages/myrvis)
+[4.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myrvis)
+[4.396s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis' for CMake module files
+[4.400s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis' for CMake config files
+[4.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('myrvis', 'cmake_prefix_path')
+[4.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/hook/cmake_prefix_path.ps1'
+[4.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/hook/cmake_prefix_path.dsv'
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/hook/cmake_prefix_path.sh'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/lib'
+[4.428s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/bin'
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/lib/pkgconfig/myrvis.pc'
+[4.433s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/lib/python3.8/site-packages'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/myrvis/bin'
+[4.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.ps1'
+[4.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.dsv'
+[4.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.sh'
+[4.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.bash'
+[4.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.zsh'
+[4.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arfan/belajar-ros2/testworkspace/install/myrvis/share/colcon-core/packages/myrvis)
+[30.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
+[30.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/learn1
+[30.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn1)
+[30.554s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1' for CMake module files
+[30.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/arfan/belajar-ros2/testworkspace/build/learn1
+[30.572s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1' for CMake config files
+[30.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn1', 'cmake_prefix_path')
+[30.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/hook/cmake_prefix_path.ps1'
+[30.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/hook/cmake_prefix_path.dsv'
+[30.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/hook/cmake_prefix_path.sh'
+[30.595s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/lib'
+[30.596s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/bin'
+[30.596s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/lib/pkgconfig/learn1.pc'
+[30.598s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/lib/python3.8/site-packages'
+[30.599s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/bin'
+[30.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.ps1'
+[30.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.dsv'
+[30.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.sh'
+[30.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.bash'
+[30.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.zsh'
+[30.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arfan/belajar-ros2/testworkspace/install/learn1/share/colcon-core/packages/learn1)
+[30.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn1)
+[30.784s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1' for CMake module files
+[30.788s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1' for CMake config files
+[30.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn1', 'cmake_prefix_path')
+[30.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/hook/cmake_prefix_path.ps1'
+[30.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/hook/cmake_prefix_path.dsv'
+[30.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/hook/cmake_prefix_path.sh'
+[30.817s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/lib'
+[30.818s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/bin'
+[30.819s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/lib/pkgconfig/learn1.pc'
+[30.820s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/lib/python3.8/site-packages'
+[30.822s] Level 1:colcon.colcon_core.environment:checking '/home/arfan/belajar-ros2/testworkspace/install/learn1/bin'
+[30.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.ps1'
+[30.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.dsv'
+[30.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.sh'
+[30.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.bash'
+[30.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.zsh'
+[30.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arfan/belajar-ros2/testworkspace/install/learn1/share/colcon-core/packages/learn1)
+[30.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.863s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.863s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.927s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.928s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.930s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.032s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arfan/belajar-ros2/testworkspace/install/local_setup.ps1'
+[31.051s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arfan/belajar-ros2/testworkspace/install/_local_setup_util_ps1.py'
+[31.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arfan/belajar-ros2/testworkspace/install/setup.ps1'
+[31.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arfan/belajar-ros2/testworkspace/install/local_setup.sh'
+[31.078s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arfan/belajar-ros2/testworkspace/install/_local_setup_util_sh.py'
+[31.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arfan/belajar-ros2/testworkspace/install/setup.sh'
+[31.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arfan/belajar-ros2/testworkspace/install/local_setup.bash'
+[31.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arfan/belajar-ros2/testworkspace/install/setup.bash'
+[31.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arfan/belajar-ros2/testworkspace/install/local_setup.zsh'
+[31.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arfan/belajar-ros2/testworkspace/install/setup.zsh'

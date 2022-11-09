@@ -1,0 +1,15 @@
+[0.124s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
+[0.410s] [35m[1mScanning dependencies of target main[0m
+[0.605s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[10.478s] [01m[K/home/arfan/belajar-ros2/testworkspace/src/learn1/src/main.cpp:[m[K In constructor ‘[01m[KLearn1Publisher::Learn1Publisher()[m[K’:
+[10.479s] [01m[K/home/arfan/belajar-ros2/testworkspace/src/learn1/src/main.cpp:13:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[10.480s]    13 |     world_name = this->declare_parameter<std::string>("world_name", "hello")
+[10.481s]       |                                                                             [01;31m[K^[m[K
+[10.481s]       |                                                                             [32m[K;[m[K
+[10.482s]    14 | 
+[10.483s]    15 |   [32m[K}[m[K
+[10.483s]       |   [32m[K~[m[K                                                                          
+[13.054s] make[2]: *** [CMakeFiles/main.dir/build.make:63: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[13.056s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main.dir/all] Error 2
+[13.058s] make: *** [Makefile:141: all] Error 2
+[13.072s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2

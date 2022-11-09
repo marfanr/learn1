@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.001032] (learn1) JobQueued: {'identifier': 'learn1', 'dependencies': OrderedDict()}
+[0.001529] (myrvis) JobQueued: {'identifier': 'myrvis', 'dependencies': OrderedDict()}
+[0.001864] (learn1) JobStarted: {'identifier': 'learn1'}
+[0.087346] (myrvis) JobStarted: {'identifier': 'myrvis'}
+[0.089924] (-) TimerEvent: {}
+[0.199932] (-) TimerEvent: {}
+[0.291439] (learn1) JobProgress: {'identifier': 'learn1', 'progress': 'cmake'}
+[0.300276] (-) TimerEvent: {}
+[0.313081] (learn1) JobProgress: {'identifier': 'learn1', 'progress': 'build'}
+[0.318194] (learn1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arfan/belajar-ros2/testworkspace/build/learn1', '--', '-j2', '-l2'], 'cwd': '/home/arfan/belajar-ros2/testworkspace/build/learn1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arfan'), ('SSH_AGENT_PID', '2123'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arfan'), ('OLDPWD', '/home/arfan/belajar-ros2/testworkspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1942'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arfan'), ('JOURNAL_STREAM', '9:46822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arfan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:~/.npmg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arfan:@/tmp/.ICE-unix/2162,unix/arfan:/tmp/.ICE-unix/2162'), ('INVOCATION_ID', 'b21cfd9eea894792b689dd08bf032ef5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d4d7354_3c41_43c2_9496_e0addd20c739'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'id_ID.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arfan/belajar-ros2/testworkspace/build/learn1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy')]), 'shell': False}
+[0.391511] (myrvis) JobProgress: {'identifier': 'myrvis', 'progress': 'cmake'}
+[0.400904] (-) TimerEvent: {}
+[0.417793] (myrvis) JobProgress: {'identifier': 'myrvis', 'progress': 'build'}
+[0.420217] (myrvis) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arfan/belajar-ros2/testworkspace/build/myrvis', '--', '-j2', '-l2'], 'cwd': '/home/arfan/belajar-ros2/testworkspace/build/myrvis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arfan'), ('SSH_AGENT_PID', '2123'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arfan'), ('OLDPWD', '/home/arfan/belajar-ros2/testworkspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1942'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arfan'), ('JOURNAL_STREAM', '9:46822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arfan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:~/.npmg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arfan:@/tmp/.ICE-unix/2162,unix/arfan:/tmp/.ICE-unix/2162'), ('INVOCATION_ID', 'b21cfd9eea894792b689dd08bf032ef5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d4d7354_3c41_43c2_9496_e0addd20c739'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'id_ID.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arfan/belajar-ros2/testworkspace/build/myrvis'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy')]), 'shell': False}
+[0.501263] (-) TimerEvent: {}
+[0.602849] (-) TimerEvent: {}
+[0.704177] (-) TimerEvent: {}
+[0.805523] (-) TimerEvent: {}
+[0.909613] (-) TimerEvent: {}
+[1.013591] (-) TimerEvent: {}
+[1.115494] (-) TimerEvent: {}
+[1.117232] (learn1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target main\x1b[0m\n'}
+[1.215736] (-) TimerEvent: {}
+[1.317830] (-) TimerEvent: {}
+[1.419678] (-) TimerEvent: {}
+[1.521577] (-) TimerEvent: {}
+[1.570105] (myrvis) StdoutLine: {'line': b'[100%] Built target myrvis\n'}
+[1.622129] (-) TimerEvent: {}
+[1.723669] (-) TimerEvent: {}
+[1.780790] (myrvis) CommandEnded: {'returncode': 0}
+[1.850203] (-) TimerEvent: {}
+[1.892368] (learn1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[1.945570] (-) TimerEvent: {}
+[2.048371] (-) TimerEvent: {}
+[2.149764] (-) TimerEvent: {}
+[2.252377] (-) TimerEvent: {}
+[2.354482] (-) TimerEvent: {}
+[2.457473] (-) TimerEvent: {}
+[2.530566] (myrvis) JobProgress: {'identifier': 'myrvis', 'progress': 'install'}
+[2.557968] (-) TimerEvent: {}
+[2.625249] (myrvis) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arfan/belajar-ros2/testworkspace/build/myrvis'], 'cwd': '/home/arfan/belajar-ros2/testworkspace/build/myrvis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arfan'), ('SSH_AGENT_PID', '2123'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arfan'), ('OLDPWD', '/home/arfan/belajar-ros2/testworkspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1942'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arfan'), ('JOURNAL_STREAM', '9:46822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arfan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:~/.npmg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arfan:@/tmp/.ICE-unix/2162,unix/arfan:/tmp/.ICE-unix/2162'), ('INVOCATION_ID', 'b21cfd9eea894792b689dd08bf032ef5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d4d7354_3c41_43c2_9496_e0addd20c739'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'id_ID.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arfan/belajar-ros2/testworkspace/build/myrvis'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy')]), 'shell': False}
+[2.659645] (-) TimerEvent: {}
+[2.750338] (myrvis) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.752183] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/lib/myrvis/myrvis\n'}
+[2.754756] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/package_run_dependencies/myrvis\n'}
+[2.756178] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/parent_prefix_path/myrvis\n'}
+[2.757401] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/ament_prefix_path.sh\n'}
+[2.758711] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/ament_prefix_path.dsv\n'}
+[2.759824] (-) TimerEvent: {}
+[2.761019] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/path.sh\n'}
+[2.761964] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/environment/path.dsv\n'}
+[2.762677] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.bash\n'}
+[2.763256] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.sh\n'}
+[2.763856] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.zsh\n'}
+[2.768919] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/local_setup.dsv\n'}
+[2.770581] (myrvis) StdoutLine: {'line': b'-- Installing: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.dsv\n'}
+[2.774280] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/ament_index/resource_index/packages/myrvis\n'}
+[2.798879] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/cmake/myrvisConfig.cmake\n'}
+[2.800835] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/cmake/myrvisConfig-version.cmake\n'}
+[2.802138] (myrvis) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/myrvis/share/myrvis/package.xml\n'}
+[2.812000] (myrvis) CommandEnded: {'returncode': 0}
+[2.877646] (-) TimerEvent: {}
+[3.006408] (-) TimerEvent: {}
+[3.107557] (-) TimerEvent: {}
+[3.209021] (-) TimerEvent: {}
+[3.310810] (-) TimerEvent: {}
+[3.412109] (-) TimerEvent: {}
+[3.513391] (-) TimerEvent: {}
+[3.614542] (-) TimerEvent: {}
+[3.722393] (-) TimerEvent: {}
+[3.825085] (-) TimerEvent: {}
+[3.866951] (myrvis) JobEnded: {'identifier': 'myrvis', 'rc': 0}
+[3.925489] (-) TimerEvent: {}
+[4.026438] (-) TimerEvent: {}
+[4.128036] (-) TimerEvent: {}
+[4.229738] (-) TimerEvent: {}
+[4.332861] (-) TimerEvent: {}
+[4.434865] (-) TimerEvent: {}
+[4.536308] (-) TimerEvent: {}
+[4.637908] (-) TimerEvent: {}
+[4.739388] (-) TimerEvent: {}
+[4.840895] (-) TimerEvent: {}
+[4.942779] (-) TimerEvent: {}
+[5.044077] (-) TimerEvent: {}
+[5.145438] (-) TimerEvent: {}
+[5.246804] (-) TimerEvent: {}
+[5.348188] (-) TimerEvent: {}
+[5.449798] (-) TimerEvent: {}
+[5.554639] (-) TimerEvent: {}
+[5.656179] (-) TimerEvent: {}
+[5.757638] (-) TimerEvent: {}
+[5.859200] (-) TimerEvent: {}
+[5.961135] (-) TimerEvent: {}
+[6.066214] (-) TimerEvent: {}
+[6.167757] (-) TimerEvent: {}
+[6.269406] (-) TimerEvent: {}
+[6.370976] (-) TimerEvent: {}
+[6.472586] (-) TimerEvent: {}
+[6.575848] (-) TimerEvent: {}
+[6.677488] (-) TimerEvent: {}
+[6.779119] (-) TimerEvent: {}
+[6.880719] (-) TimerEvent: {}
+[6.982481] (-) TimerEvent: {}
+[7.085083] (-) TimerEvent: {}
+[7.186970] (-) TimerEvent: {}
+[7.288540] (-) TimerEvent: {}
+[7.390194] (-) TimerEvent: {}
+[7.492078] (-) TimerEvent: {}
+[7.596127] (-) TimerEvent: {}
+[7.698663] (-) TimerEvent: {}
+[7.800456] (-) TimerEvent: {}
+[7.902201] (-) TimerEvent: {}
+[8.003647] (-) TimerEvent: {}
+[8.105043] (-) TimerEvent: {}
+[8.209282] (-) TimerEvent: {}
+[8.310789] (-) TimerEvent: {}
+[8.412239] (-) TimerEvent: {}
+[8.514056] (-) TimerEvent: {}
+[8.616036] (-) TimerEvent: {}
+[8.718657] (-) TimerEvent: {}
+[8.820349] (-) TimerEvent: {}
+[8.922071] (-) TimerEvent: {}
+[9.023727] (-) TimerEvent: {}
+[9.125760] (-) TimerEvent: {}
+[9.229644] (-) TimerEvent: {}
+[9.331505] (-) TimerEvent: {}
+[9.433483] (-) TimerEvent: {}
+[9.534800] (-) TimerEvent: {}
+[9.640818] (-) TimerEvent: {}
+[9.745148] (-) TimerEvent: {}
+[9.847115] (-) TimerEvent: {}
+[9.948701] (-) TimerEvent: {}
+[10.050843] (-) TimerEvent: {}
+[10.152511] (-) TimerEvent: {}
+[10.254608] (-) TimerEvent: {}
+[10.356227] (-) TimerEvent: {}
+[10.458020] (-) TimerEvent: {}
+[10.559524] (-) TimerEvent: {}
+[10.660893] (-) TimerEvent: {}
+[10.762785] (-) TimerEvent: {}
+[10.868011] (-) TimerEvent: {}
+[10.974344] (-) TimerEvent: {}
+[11.076278] (-) TimerEvent: {}
+[11.177508] (-) TimerEvent: {}
+[11.282285] (-) TimerEvent: {}
+[11.383994] (-) TimerEvent: {}
+[11.485994] (-) TimerEvent: {}
+[11.591604] (-) TimerEvent: {}
+[11.693285] (-) TimerEvent: {}
+[11.795352] (-) TimerEvent: {}
+[11.897187] (-) TimerEvent: {}
+[11.999117] (-) TimerEvent: {}
+[12.100431] (-) TimerEvent: {}
+[12.202058] (-) TimerEvent: {}
+[12.303698] (-) TimerEvent: {}
+[12.405357] (-) TimerEvent: {}
+[12.506842] (-) TimerEvent: {}
+[12.608328] (-) TimerEvent: {}
+[12.709979] (-) TimerEvent: {}
+[12.812217] (-) TimerEvent: {}
+[12.913959] (-) TimerEvent: {}
+[13.015018] (-) TimerEvent: {}
+[13.117030] (-) TimerEvent: {}
+[13.218400] (-) TimerEvent: {}
+[13.319697] (-) TimerEvent: {}
+[13.420802] (-) TimerEvent: {}
+[13.522831] (-) TimerEvent: {}
+[13.624425] (-) TimerEvent: {}
+[13.726537] (-) TimerEvent: {}
+[13.830628] (-) TimerEvent: {}
+[13.932674] (-) TimerEvent: {}
+[14.034821] (-) TimerEvent: {}
+[14.136380] (-) TimerEvent: {}
+[14.238282] (-) TimerEvent: {}
+[14.339397] (-) TimerEvent: {}
+[14.445233] (-) TimerEvent: {}
+[14.546509] (-) TimerEvent: {}
+[14.648327] (-) TimerEvent: {}
+[14.749996] (-) TimerEvent: {}
+[14.851572] (-) TimerEvent: {}
+[14.952925] (-) TimerEvent: {}
+[15.054531] (-) TimerEvent: {}
+[15.156009] (-) TimerEvent: {}
+[15.259918] (-) TimerEvent: {}
+[15.361149] (-) TimerEvent: {}
+[15.462989] (-) TimerEvent: {}
+[15.566180] (-) TimerEvent: {}
+[15.667624] (-) TimerEvent: {}
+[15.769080] (-) TimerEvent: {}
+[15.870769] (-) TimerEvent: {}
+[15.972242] (-) TimerEvent: {}
+[16.074220] (-) TimerEvent: {}
+[16.176024] (-) TimerEvent: {}
+[16.277539] (-) TimerEvent: {}
+[16.380581] (-) TimerEvent: {}
+[16.482288] (-) TimerEvent: {}
+[16.584125] (-) TimerEvent: {}
+[16.686081] (-) TimerEvent: {}
+[16.788225] (-) TimerEvent: {}
+[16.892217] (-) TimerEvent: {}
+[16.994168] (-) TimerEvent: {}
+[17.095876] (-) TimerEvent: {}
+[17.199824] (-) TimerEvent: {}
+[17.301192] (-) TimerEvent: {}
+[17.402580] (-) TimerEvent: {}
+[17.503916] (-) TimerEvent: {}
+[17.605651] (-) TimerEvent: {}
+[17.709816] (-) TimerEvent: {}
+[17.811882] (-) TimerEvent: {}
+[17.915612] (-) TimerEvent: {}
+[18.017177] (-) TimerEvent: {}
+[18.118890] (-) TimerEvent: {}
+[18.220649] (-) TimerEvent: {}
+[18.322697] (-) TimerEvent: {}
+[18.424236] (-) TimerEvent: {}
+[18.525802] (-) TimerEvent: {}
+[18.627576] (-) TimerEvent: {}
+[18.728631] (-) TimerEvent: {}
+[18.829716] (-) TimerEvent: {}
+[18.931082] (-) TimerEvent: {}
+[19.033237] (-) TimerEvent: {}
+[19.134395] (-) TimerEvent: {}
+[19.235891] (-) TimerEvent: {}
+[19.337600] (-) TimerEvent: {}
+[19.439438] (-) TimerEvent: {}
+[19.541231] (-) TimerEvent: {}
+[19.643177] (-) TimerEvent: {}
+[19.745236] (-) TimerEvent: {}
+[19.847163] (-) TimerEvent: {}
+[19.948845] (-) TimerEvent: {}
+[20.050687] (-) TimerEvent: {}
+[20.152771] (-) TimerEvent: {}
+[20.254817] (-) TimerEvent: {}
+[20.356587] (-) TimerEvent: {}
+[20.458226] (-) TimerEvent: {}
+[20.559951] (-) TimerEvent: {}
+[20.661764] (-) TimerEvent: {}
+[20.764234] (-) TimerEvent: {}
+[20.865909] (-) TimerEvent: {}
+[20.967503] (-) TimerEvent: {}
+[21.069438] (-) TimerEvent: {}
+[21.171524] (-) TimerEvent: {}
+[21.273744] (-) TimerEvent: {}
+[21.375820] (-) TimerEvent: {}
+[21.477822] (-) TimerEvent: {}
+[21.579732] (-) TimerEvent: {}
+[21.681944] (-) TimerEvent: {}
+[21.789612] (-) TimerEvent: {}
+[21.891875] (-) TimerEvent: {}
+[21.993599] (-) TimerEvent: {}
+[22.095964] (-) TimerEvent: {}
+[22.197998] (-) TimerEvent: {}
+[22.302623] (-) TimerEvent: {}
+[22.404236] (-) TimerEvent: {}
+[22.507070] (-) TimerEvent: {}
+[22.609194] (-) TimerEvent: {}
+[22.711303] (-) TimerEvent: {}
+[22.818844] (-) TimerEvent: {}
+[22.920750] (-) TimerEvent: {}
+[23.022914] (-) TimerEvent: {}
+[23.125388] (-) TimerEvent: {}
+[23.227484] (-) TimerEvent: {}
+[23.329578] (-) TimerEvent: {}
+[23.431525] (-) TimerEvent: {}
+[23.533386] (-) TimerEvent: {}
+[23.635473] (-) TimerEvent: {}
+[23.737624] (-) TimerEvent: {}
+[23.839922] (-) TimerEvent: {}
+[23.942180] (-) TimerEvent: {}
+[24.044063] (-) TimerEvent: {}
+[24.145814] (-) TimerEvent: {}
+[24.248495] (-) TimerEvent: {}
+[24.350277] (-) TimerEvent: {}
+[24.452511] (-) TimerEvent: {}
+[24.554439] (-) TimerEvent: {}
+[24.656460] (-) TimerEvent: {}
+[24.758733] (-) TimerEvent: {}
+[24.860844] (-) TimerEvent: {}
+[24.963029] (-) TimerEvent: {}
+[25.064701] (-) TimerEvent: {}
+[25.166653] (-) TimerEvent: {}
+[25.269148] (-) TimerEvent: {}
+[25.371559] (-) TimerEvent: {}
+[25.473356] (-) TimerEvent: {}
+[25.575023] (-) TimerEvent: {}
+[25.676737] (-) TimerEvent: {}
+[25.778892] (-) TimerEvent: {}
+[25.880788] (-) TimerEvent: {}
+[25.983140] (-) TimerEvent: {}
+[26.085418] (-) TimerEvent: {}
+[26.189954] (-) TimerEvent: {}
+[26.291257] (-) TimerEvent: {}
+[26.392560] (-) TimerEvent: {}
+[26.493883] (-) TimerEvent: {}
+[26.595734] (-) TimerEvent: {}
+[26.696701] (-) TimerEvent: {}
+[26.798043] (-) TimerEvent: {}
+[26.900021] (-) TimerEvent: {}
+[26.986618] (learn1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[27.000428] (-) TimerEvent: {}
+[27.101789] (-) TimerEvent: {}
+[27.203466] (-) TimerEvent: {}
+[27.305236] (-) TimerEvent: {}
+[27.408855] (-) TimerEvent: {}
+[27.510586] (-) TimerEvent: {}
+[27.612629] (-) TimerEvent: {}
+[27.714244] (-) TimerEvent: {}
+[27.815794] (-) TimerEvent: {}
+[27.917657] (-) TimerEvent: {}
+[28.019799] (-) TimerEvent: {}
+[28.121752] (-) TimerEvent: {}
+[28.223626] (-) TimerEvent: {}
+[28.325167] (-) TimerEvent: {}
+[28.426913] (-) TimerEvent: {}
+[28.528649] (-) TimerEvent: {}
+[28.634652] (-) TimerEvent: {}
+[28.730069] (learn1) StdoutLine: {'line': b'[100%] Built target main\n'}
+[28.736216] (-) TimerEvent: {}
+[28.786872] (learn1) CommandEnded: {'returncode': 0}
+[28.836875] (-) TimerEvent: {}
+[28.938986] (-) TimerEvent: {}
+[28.956461] (learn1) JobProgress: {'identifier': 'learn1', 'progress': 'install'}
+[28.961032] (learn1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arfan/belajar-ros2/testworkspace/build/learn1'], 'cwd': '/home/arfan/belajar-ros2/testworkspace/build/learn1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arfan'), ('SSH_AGENT_PID', '2123'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arfan'), ('OLDPWD', '/home/arfan/belajar-ros2/testworkspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1942'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arfan'), ('JOURNAL_STREAM', '9:46822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arfan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:~/.npmg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arfan:@/tmp/.ICE-unix/2162,unix/arfan:/tmp/.ICE-unix/2162'), ('INVOCATION_ID', 'b21cfd9eea894792b689dd08bf032ef5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d4d7354_3c41_43c2_9496_e0addd20c739'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'id_ID.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arfan/belajar-ros2/testworkspace/build/learn1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/arfan/belajar-ros2/testworkspace/install/myrvis:/home/arfan/belajar-ros2/testworkspace/install/learn1:/opt/ros/foxy')]), 'shell': False}
+[29.020624] (learn1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.023759] (learn1) StdoutLine: {'line': b'-- Installing: /home/arfan/belajar-ros2/testworkspace/install/learn1/lib/learn1/main\n'}
+[29.033273] (learn1) StdoutLine: {'line': b'-- Set runtime path of "/home/arfan/belajar-ros2/testworkspace/install/learn1/lib/learn1/main" to ""\n'}
+[29.035060] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/ament_index/resource_index/package_run_dependencies/learn1\n'}
+[29.036698] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/ament_index/resource_index/parent_prefix_path/learn1\n'}
+[29.038025] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/ament_prefix_path.sh\n'}
+[29.038998] (-) TimerEvent: {}
+[29.040418] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/ament_prefix_path.dsv\n'}
+[29.041811] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/path.sh\n'}
+[29.043512] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/environment/path.dsv\n'}
+[29.044875] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.bash\n'}
+[29.045651] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.sh\n'}
+[29.046309] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.zsh\n'}
+[29.047026] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/local_setup.dsv\n'}
+[29.048262] (learn1) StdoutLine: {'line': b'-- Installing: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.dsv\n'}
+[29.049435] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/ament_index/resource_index/packages/learn1\n'}
+[29.050179] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/cmake/learn1Config.cmake\n'}
+[29.054903] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/cmake/learn1Config-version.cmake\n'}
+[29.055590] (learn1) StdoutLine: {'line': b'-- Up-to-date: /home/arfan/belajar-ros2/testworkspace/install/learn1/share/learn1/package.xml\n'}
+[29.061570] (learn1) CommandEnded: {'returncode': 0}
+[29.140828] (-) TimerEvent: {}
+[29.242329] (-) TimerEvent: {}
+[29.343633] (-) TimerEvent: {}
+[29.444990] (-) TimerEvent: {}
+[29.500147] (learn1) JobEnded: {'identifier': 'learn1', 'rc': 0}
+[29.524391] (-) EventReactorShutdown: {}

@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.004203] (learn1) JobQueued: {'identifier': 'learn1', 'dependencies': OrderedDict()}
+[0.004866] (learn1) JobStarted: {'identifier': 'learn1'}
+[0.094973] (-) TimerEvent: {}
+[0.166131] (learn1) JobProgress: {'identifier': 'learn1', 'progress': 'cmake'}
+[0.167959] (learn1) Command: {'cmd': ['/usr/bin/cmake', '/home/arfan/belajar-ros2/testworkspace/src/learn1', '-DCMAKE_INSTALL_PREFIX=/home/arfan/belajar-ros2/testworkspace/install/learn1'], 'cwd': '/home/arfan/belajar-ros2/testworkspace/build/learn1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arfan'), ('SSH_AGENT_PID', '1862'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arfan'), ('OLDPWD', '/home/arfan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1669'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arfan'), ('JOURNAL_STREAM', '9:41531'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arfan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:~/.npmg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arfan:@/tmp/.ICE-unix/1902,unix/arfan:/tmp/.ICE-unix/1902'), ('INVOCATION_ID', 'd81e6ffa8a4f42f49a4df976648d7fa0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ec0e4615_5096_49bd_98e2_483d94ac7f46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'id_ID.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arfan/belajar-ros2/testworkspace/build/learn1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.195362] (-) TimerEvent: {}
+[0.296624] (-) TimerEvent: {}
+[0.398043] (-) TimerEvent: {}
+[0.499398] (-) TimerEvent: {}
+[0.600621] (-) TimerEvent: {}
+[0.702042] (-) TimerEvent: {}
+[0.803572] (-) TimerEvent: {}
+[0.905056] (-) TimerEvent: {}
+[1.006556] (-) TimerEvent: {}
+[1.107821] (-) TimerEvent: {}
+[1.209753] (-) TimerEvent: {}
+[1.311017] (-) TimerEvent: {}
+[1.412551] (-) TimerEvent: {}
+[1.513967] (-) TimerEvent: {}
+[1.615248] (-) TimerEvent: {}
+[1.716680] (-) TimerEvent: {}
+[1.808785] (learn1) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.817123] (-) TimerEvent: {}
+[1.919090] (-) TimerEvent: {}
+[2.020463] (-) TimerEvent: {}
+[2.121665] (-) TimerEvent: {}
+[2.223175] (-) TimerEvent: {}
+[2.324556] (-) TimerEvent: {}
+[2.426434] (-) TimerEvent: {}
+[2.527676] (-) TimerEvent: {}
+[2.629143] (-) TimerEvent: {}
+[2.731135] (-) TimerEvent: {}
+[2.826377] (learn1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.831381] (-) TimerEvent: {}
+[2.932725] (-) TimerEvent: {}
+[3.000185] (learn1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.033229] (-) TimerEvent: {}
+[3.134489] (-) TimerEvent: {}
+[3.235567] (-) TimerEvent: {}
+[3.339866] (-) TimerEvent: {}
+[3.441516] (-) TimerEvent: {}
+[3.542881] (-) TimerEvent: {}
+[3.589576] (learn1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.614903] (learn1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.643264] (-) TimerEvent: {}
+[3.744828] (-) TimerEvent: {}
+[3.846458] (-) TimerEvent: {}
+[3.948788] (-) TimerEvent: {}
+[4.049923] (-) TimerEvent: {}
+[4.069938] (learn1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.147345] (learn1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.150396] (-) TimerEvent: {}
+[4.166102] (learn1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.233649] (learn1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.250635] (-) TimerEvent: {}
+[4.352436] (-) TimerEvent: {}
+[4.453917] (-) TimerEvent: {}
+[4.555690] (-) TimerEvent: {}
+[4.658978] (-) TimerEvent: {}
+[4.760273] (-) TimerEvent: {}
+[4.772815] (learn1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.779759] (learn1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.860697] (-) TimerEvent: {}
+[4.961944] (-) TimerEvent: {}
+[5.063167] (-) TimerEvent: {}
+[5.165315] (-) TimerEvent: {}
+[5.266545] (-) TimerEvent: {}
+[5.267653] (learn1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.346555] (learn1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.349784] (learn1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.366906] (-) TimerEvent: {}
+[5.411752] (learn1) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.468093] (-) TimerEvent: {}
+[5.569604] (-) TimerEvent: {}
+[5.668749] (learn1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.669681] (-) TimerEvent: {}
+[5.671002] (learn1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.770118] (-) TimerEvent: {}
+[5.871661] (-) TimerEvent: {}
+[5.973336] (-) TimerEvent: {}
+[6.075311] (-) TimerEvent: {}
+[6.176665] (-) TimerEvent: {}
+[6.278279] (-) TimerEvent: {}
+[6.380048] (-) TimerEvent: {}
+[6.481632] (-) TimerEvent: {}
+[6.586548] (-) TimerEvent: {}
+[6.687961] (-) TimerEvent: {}
+[6.790089] (-) TimerEvent: {}
+[6.891865] (-) TimerEvent: {}
+[6.995223] (-) TimerEvent: {}
+[7.096571] (-) TimerEvent: {}
+[7.198857] (-) TimerEvent: {}
+[7.300717] (-) TimerEvent: {}
+[7.402058] (-) TimerEvent: {}
+[7.503225] (-) TimerEvent: {}
+[7.604965] (-) TimerEvent: {}
+[7.705982] (-) TimerEvent: {}
+[7.807381] (-) TimerEvent: {}
+[7.831889] (learn1) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.907755] (-) TimerEvent: {}
+[8.008793] (-) TimerEvent: {}
+[8.111001] (-) TimerEvent: {}
+[8.212253] (-) TimerEvent: {}
+[8.313636] (-) TimerEvent: {}
+[8.415693] (-) TimerEvent: {}
+[8.516967] (-) TimerEvent: {}
+[8.573443] (learn1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.617224] (-) TimerEvent: {}
+[8.718481] (-) TimerEvent: {}
+[8.743497] (learn1) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.818759] (-) TimerEvent: {}
+[8.922113] (-) TimerEvent: {}
+[9.024463] (-) TimerEvent: {}
+[9.125674] (-) TimerEvent: {}
+[9.226866] (-) TimerEvent: {}
+[9.327980] (-) TimerEvent: {}
+[9.429235] (-) TimerEvent: {}
+[9.530436] (-) TimerEvent: {}
+[9.631774] (-) TimerEvent: {}
+[9.733091] (-) TimerEvent: {}
+[9.834616] (-) TimerEvent: {}
+[9.935882] (-) TimerEvent: {}
+[10.038266] (-) TimerEvent: {}
+[10.139343] (-) TimerEvent: {}
+[10.240460] (-) TimerEvent: {}
+[10.341483] (-) TimerEvent: {}
+[10.442505] (-) TimerEvent: {}
+[10.469647] (learn1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[10.542779] (-) TimerEvent: {}
+[10.647310] (-) TimerEvent: {}
+[10.749504] (-) TimerEvent: {}
+[10.841756] (learn1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[10.849767] (-) TimerEvent: {}
+[10.951071] (-) TimerEvent: {}
+[11.052521] (-) TimerEvent: {}
+[11.154353] (-) TimerEvent: {}
+[11.255909] (-) TimerEvent: {}
+[11.357361] (-) TimerEvent: {}
+[11.458818] (-) TimerEvent: {}
+[11.560377] (-) TimerEvent: {}
+[11.662888] (-) TimerEvent: {}
+[11.764706] (-) TimerEvent: {}
+[11.866165] (-) TimerEvent: {}
+[11.967770] (-) TimerEvent: {}
+[12.069524] (-) TimerEvent: {}
+[12.170926] (-) TimerEvent: {}
+[12.272787] (-) TimerEvent: {}
+[12.374482] (-) TimerEvent: {}
+[12.475996] (-) TimerEvent: {}
+[12.577500] (-) TimerEvent: {}
+[12.678480] (-) TimerEvent: {}
+[12.779531] (-) TimerEvent: {}
+[12.881107] (-) TimerEvent: {}
+[12.996427] (-) TimerEvent: {}
+[13.097937] (-) TimerEvent: {}
+[13.199068] (-) TimerEvent: {}
+[13.300199] (-) TimerEvent: {}
+[13.401290] (-) TimerEvent: {}
+[13.502803] (-) TimerEvent: {}
+[13.606625] (-) TimerEvent: {}
+[13.708473] (-) TimerEvent: {}
+[13.810257] (-) TimerEvent: {}
+[13.911669] (-) TimerEvent: {}
+[14.012638] (-) TimerEvent: {}
+[14.097396] (learn1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.113022] (-) TimerEvent: {}
+[14.214558] (-) TimerEvent: {}
+[14.315668] (-) TimerEvent: {}
+[14.416983] (-) TimerEvent: {}
+[14.520329] (-) TimerEvent: {}
+[14.621397] (-) TimerEvent: {}
+[14.722787] (-) TimerEvent: {}
+[14.823845] (-) TimerEvent: {}
+[14.925243] (-) TimerEvent: {}
+[15.012748] (learn1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[15.025651] (-) TimerEvent: {}
+[15.060946] (learn1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.111761] (learn1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.125881] (-) TimerEvent: {}
+[15.227123] (-) TimerEvent: {}
+[15.329010] (-) TimerEvent: {}
+[15.430400] (-) TimerEvent: {}
+[15.531940] (-) TimerEvent: {}
+[15.633608] (-) TimerEvent: {}
+[15.735549] (-) TimerEvent: {}
+[15.837002] (-) TimerEvent: {}
+[15.880985] (learn1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.886224] (learn1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.937298] (-) TimerEvent: {}
+[16.038697] (-) TimerEvent: {}
+[16.140239] (-) TimerEvent: {}
+[16.243680] (-) TimerEvent: {}
+[16.346008] (-) TimerEvent: {}
+[16.447869] (-) TimerEvent: {}
+[16.551148] (-) TimerEvent: {}
+[16.652800] (-) TimerEvent: {}
+[16.726168] (learn1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[16.729552] (learn1) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[16.753093] (-) TimerEvent: {}
+[16.854579] (-) TimerEvent: {}
+[16.956180] (-) TimerEvent: {}
+[17.058123] (-) TimerEvent: {}
+[17.159639] (-) TimerEvent: {}
+[17.212838] (learn1) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[17.215908] (learn1) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[17.259863] (-) TimerEvent: {}
+[17.361281] (-) TimerEvent: {}
+[17.462786] (-) TimerEvent: {}
+[17.564670] (-) TimerEvent: {}
+[17.669723] (-) TimerEvent: {}
+[17.771705] (-) TimerEvent: {}
+[17.786933] (learn1) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[17.795041] (learn1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[17.871969] (-) TimerEvent: {}
+[17.973571] (-) TimerEvent: {}
+[18.074836] (-) TimerEvent: {}
+[18.176435] (-) TimerEvent: {}
+[18.277876] (-) TimerEvent: {}
+[18.379290] (-) TimerEvent: {}
+[18.480923] (-) TimerEvent: {}
+[18.582405] (-) TimerEvent: {}
+[18.683937] (-) TimerEvent: {}
+[18.785594] (-) TimerEvent: {}
+[18.887063] (-) TimerEvent: {}
+[18.988536] (-) TimerEvent: {}
+[19.090098] (-) TimerEvent: {}
+[19.191226] (-) TimerEvent: {}
+[19.292614] (-) TimerEvent: {}
+[19.394425] (-) TimerEvent: {}
+[19.498003] (-) TimerEvent: {}
+[19.599247] (-) TimerEvent: {}
+[19.700510] (-) TimerEvent: {}
+[19.745726] (learn1) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[19.747050] (learn1) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[19.747900] (learn1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.748560] (learn1) StderrLine: {'line': b'  CMakeLists.txt:33 (ament_target_dependencies)\n'}
+[19.749169] (learn1) StderrLine: {'line': b'\n'}
+[19.749761] (learn1) StderrLine: {'line': b'\n'}
+[19.757089] (learn1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[19.758226] (learn1) StdoutLine: {'line': b'See also "/home/arfan/belajar-ros2/testworkspace/build/learn1/CMakeFiles/CMakeOutput.log".\n'}
+[19.758906] (learn1) StdoutLine: {'line': b'See also "/home/arfan/belajar-ros2/testworkspace/build/learn1/CMakeFiles/CMakeError.log".\n'}
+[19.800773] (-) TimerEvent: {}
+[19.803743] (learn1) CommandEnded: {'returncode': 1}
+[19.903125] (-) TimerEvent: {}
+[20.004835] (-) TimerEvent: {}
+[20.101446] (learn1) JobEnded: {'identifier': 'learn1', 'rc': 1}
+[20.105090] (-) TimerEvent: {}
+[20.108646] (-) EventReactorShutdown: {}

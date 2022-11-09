@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target main[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/arfan/belajar-ros2/testworkspace/src/learn1/src/main.cpp:[m[K In constructor ‘[01m[KLearn1Publisher::Learn1Publisher()[m[K’:
+[01m[K/home/arfan/belajar-ros2/testworkspace/src/learn1/src/main.cpp:13:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   13 |     world_name = this->declare_parameter<std::string>("world_name", "hello")
+      |                                                                             [01;31m[K^[m[K
+      |                                                                             [32m[K;[m[K
+   14 | 
+   15 |   [32m[K}[m[K
+      |   [32m[K~[m[K                                                                          
+make[2]: *** [CMakeFiles/main.dir/build.make:63: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

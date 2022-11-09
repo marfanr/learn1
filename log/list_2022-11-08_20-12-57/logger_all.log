@@ -1,0 +1,50 @@
+[6.675s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/arfan/belajar-ros2/testworkspace']
+[6.676s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/arfan/belajar-ros2/testworkspace'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fb07aaa6430>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fb07aaa6430>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb07a9f7a60>)
+[8.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.647s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arfan/belajar-ros2/testworkspace'
+[8.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extensions ['ignore', 'ignore_ament_install']
+[8.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'ignore'
+[8.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'ignore_ament_install'
+[8.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extensions ['colcon_pkg']
+[8.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'colcon_pkg'
+[8.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extensions ['colcon_meta']
+[8.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'colcon_meta'
+[8.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extensions ['ros']
+[8.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'ros'
+[9.138s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extensions ['cmake', 'python']
+[9.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'cmake'
+[9.139s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'python'
+[9.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extensions ['python_setup_py']
+[9.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace) by extension 'python_setup_py'
+[9.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/log) by extensions ['ignore', 'ignore_ament_install']
+[9.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/log) by extension 'ignore'
+[9.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/log) ignored
+[9.151s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extensions ['ignore', 'ignore_ament_install']
+[9.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'ignore'
+[9.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'ignore_ament_install'
+[9.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extensions ['colcon_pkg']
+[9.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'colcon_pkg'
+[9.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extensions ['colcon_meta']
+[9.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'colcon_meta'
+[9.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extensions ['ros']
+[9.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'ros'
+[9.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extensions ['cmake', 'python']
+[9.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'cmake'
+[9.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'python'
+[9.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extensions ['python_setup_py']
+[9.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src) by extension 'python_setup_py'
+[9.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extensions ['ignore', 'ignore_ament_install']
+[9.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extension 'ignore'
+[9.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extension 'ignore_ament_install'
+[9.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extensions ['colcon_pkg']
+[9.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extension 'colcon_pkg'
+[9.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extensions ['colcon_meta']
+[9.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extension 'colcon_meta'
+[9.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extensions ['ros']
+[9.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/arfan/belajar-ros2/testworkspace/src/learn1) by extension 'ros'
+[9.250s] DEBUG:colcon.colcon_core.package_identification:Package '/home/arfan/belajar-ros2/testworkspace/src/learn1' with type 'ros.ament_cmake' and name 'learn1'
+[9.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

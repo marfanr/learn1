@@ -1,0 +1,4 @@
+source;share/myrvis/local_setup.bash
+source;share/myrvis/local_setup.dsv
+source;share/myrvis/local_setup.sh
+source;share/myrvis/local_setup.zsh

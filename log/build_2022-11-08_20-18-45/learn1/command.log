@@ -1,0 +1,2 @@
+Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arfan/belajar-ros2/testworkspace/src/learn1 -DCMAKE_INSTALL_PREFIX=/home/arfan/belajar-ros2/testworkspace/install/learn1
+Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arfan/belajar-ros2/testworkspace/src/learn1 -DCMAKE_INSTALL_PREFIX=/home/arfan/belajar-ros2/testworkspace/install/learn1

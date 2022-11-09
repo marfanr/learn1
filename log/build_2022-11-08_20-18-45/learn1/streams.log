@@ -1,0 +1,45 @@
+[0.166s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arfan/belajar-ros2/testworkspace/src/learn1 -DCMAKE_INSTALL_PREFIX=/home/arfan/belajar-ros2/testworkspace/install/learn1
+[1.805s] -- The C compiler identification is GNU 9.4.0
+[2.822s] -- The CXX compiler identification is GNU 9.4.0
+[2.996s] -- Check for working C compiler: /usr/bin/cc
+[3.585s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.611s] -- Detecting C compiler ABI info
+[4.066s] -- Detecting C compiler ABI info - done
+[4.143s] -- Detecting C compile features
+[4.162s] -- Detecting C compile features - done
+[4.229s] -- Check for working CXX compiler: /usr/bin/c++
+[4.768s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.776s] -- Detecting CXX compiler ABI info
+[5.263s] -- Detecting CXX compiler ABI info - done
+[5.342s] -- Detecting CXX compile features
+[5.346s] -- Detecting CXX compile features - done
+[5.407s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.664s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.667s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.828s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.739s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.465s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.837s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.008s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.057s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.107s] -- Looking for pthread.h
+[15.877s] -- Looking for pthread.h - found
+[15.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[16.725s] -- Looking for pthread_create in pthreads
+[17.208s] -- Looking for pthread_create in pthreads - not found
+[17.212s] -- Looking for pthread_create in pthread
+[17.783s] -- Looking for pthread_create in pthread - found
+[17.791s] -- Found Threads: TRUE  
+[19.742s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[19.743s]   ament_target_dependencies() the first argument must be a valid target name
+[19.743s] Call Stack (most recent call first):
+[19.744s]   CMakeLists.txt:33 (ament_target_dependencies)
+[19.745s] 
+[19.745s] 
+[19.753s] -- Configuring incomplete, errors occurred!
+[19.754s] See also "/home/arfan/belajar-ros2/testworkspace/build/learn1/CMakeFiles/CMakeOutput.log".
+[19.754s] See also "/home/arfan/belajar-ros2/testworkspace/build/learn1/CMakeFiles/CMakeError.log".
+[19.800s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arfan/belajar-ros2/testworkspace/src/learn1 -DCMAKE_INSTALL_PREFIX=/home/arfan/belajar-ros2/testworkspace/install/learn1

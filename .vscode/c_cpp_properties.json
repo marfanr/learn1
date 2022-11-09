@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/foxy/include/**",
+                "/home/arfan/belajar-ros2/testworkspace/src/learn1/include/**",
+                "/usr/include/**",
+                "/opt/ros/foxy/include/rviz_default_plugins",
+                "/opt/ros/foxy/include/rviz_default_plugins/displays"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

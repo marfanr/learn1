@@ -1,0 +1,32 @@
+[0.175s] Invoking command in '/home/arfan/belajar-ros2/testworkspace/build/learn1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
+[0.619s] [35m[1mScanning dependencies of target main[0m
+[1.323s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[12.772s] [01m[K/home/arfan/belajar-ros2/testworkspace/src/learn1/src/main.cpp:[m[K In constructor ‘[01m[KLearn1Publisher::Learn1Publisher()[m[K’:
+[12.776s] [01m[K/home/arfan/belajar-ros2/testworkspace/src/learn1/src/main.cpp:21:46:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::_lifetime_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} and ‘[01m[Krclcpp::Time[m[K’)
+[12.785s]    21 |     marker.lifetime = this->get_clock()->now([01;31m[K)[m[K;
+[12.792s]       |                                              [01;31m[K^[m[K
+[12.793s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[12.798s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[12.799s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[12.802s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[12.805s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[12.809s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[12.811s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[12.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[12.813s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[12.819s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[12.820s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[12.821s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[12.823s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[12.825s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[12.832s]                  from [01m[K/home/arfan/belajar-ros2/testworkspace/src/learn1/src/main.cpp:3[m[K:
+[12.834s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr builtin_interfaces::msg::Duration_<std::allocator<void> >& builtin_interfaces::msg::Duration_<std::allocator<void> >::operator=(const builtin_interfaces::msg::Duration_<std::allocator<void> >&)[m[K’
+[12.835s]    31 | struct [01;36m[KDuration_[m[K
+[12.836s]       |        [01;36m[K^~~~~~~~~[m[K
+[12.837s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&[m[K’
+[12.839s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr builtin_interfaces::msg::Duration_<std::allocator<void> >& builtin_interfaces::msg::Duration_<std::allocator<void> >::operator=(builtin_interfaces::msg::Duration_<std::allocator<void> >&&)[m[K’
+[12.841s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kbuiltin_interfaces::msg::Duration_<std::allocator<void> >&&[m[K’
+[18.714s] make[2]: *** [CMakeFiles/main.dir/build.make:63: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[18.715s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/main.dir/all] Error 2
+[18.716s] make: *** [Makefile:141: all] Error 2
+[18.723s] Invoked command in '/home/arfan/belajar-ros2/testworkspace/build/learn1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/arfan/belajar-ros2/testworkspace/build/learn1 -- -j2 -l2
